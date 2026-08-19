@@ -2,19 +2,19 @@ export const products = [
   {
     id: "1",
     name: "Product A",
-    description: "This is a great product.",
+    description: "This is a fantastic product A.",
     price: 10.0,
   },
   {
     id: "2",
     name: "Product B",
-    description: "This is an awesome product.",
+    description: "This is a brilliant product B.",
     price: 20.0,
   },
   {
     id: "3",
     name: "Product C",
-    description: "This is a fantastic product.",
+    description: "This is a superb product C.",
     price: 30.0,
   },
 ];
