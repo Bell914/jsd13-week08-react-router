@@ -1,16 +1,12 @@
-import { Link } from "react-router-dom";
-
 export default function About() {
   return (
-    <div className="flex flex-col items-center justify-start pt-6 text-center">
-      <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">
-        About
+    <div className="bg-white rounded-lg shadow-md p-6 sm:p-8 max-w-2xl mx-auto w-full text-center mt-2">
+      <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
+        About Us
       </h1>
-      <Link
-        to="/"
-        className="text-[#2bbbad] hover:text-[#26a69a] underline text-sm font-medium">
-        Go to Home
-      </Link>
+      <p className="text-gray-700 text-sm sm:text-base">
+        This is a simple example app demonstrating React Router 7.4.0.
+      </p>
     </div>
   );
 }
